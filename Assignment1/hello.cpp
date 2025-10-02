@@ -1,3 +1,9 @@
+/*
+ Egor Bogolyubov
+ student139974@student.spbu.ru
+ HomeAssignment1
+*/
+
 #include "hello.h"
 
 #include <iostream>
