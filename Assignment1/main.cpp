@@ -1,6 +1,5 @@
 #include "hello.h"
 
-#include <string>
 #include <iostream>
 
 int main(){
