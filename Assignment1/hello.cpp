@@ -3,6 +3,6 @@
 #include <string>
 #include <iostream>
 
-void myproject::sayHello(std::string s = "world"){
+void myproject::sayHello(std::string s){
 	std::cout << "Hello, " << s << "!" << std::endl;
 }

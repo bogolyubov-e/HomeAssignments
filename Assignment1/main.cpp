@@ -5,11 +5,11 @@
 
 int main(){
 	using namespace std;
-	sayHello();
+	myproject::sayHello();
 	string s;
 	while (1){
 		cin >> s;
-		sayHello(s);
+		myproject::sayHello(s);
 	}
 	return 0;
 }
