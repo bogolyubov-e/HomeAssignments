@@ -8,10 +8,10 @@ OBJ = $(SRC:.cpp=.o)
 all: hello
 
 hello: $(OBJ)
-	$(CXX) -o $@ $^ $(CXXFLAGS)
+        $(CXX) -o $@ $^ $(CXXFLAGS)
 
 %.o:%.cpp
-	$(CXX) -c -o $@ $< $(CXXFLAGS)
+        $(CXX) -c -o $@ $< $(CXXFLAGS)
 
 clean:
-	rm -f hello $(OBJ)
+        rm -f hello $(OBJ)
