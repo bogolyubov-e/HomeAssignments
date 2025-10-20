@@ -1,3 +1,9 @@
+/*
+ Egor Bogolyubov
+ student139974@student.spbu.ru
+ HomeAssignment2a
+*/
+
 #include <iostream>
 #include <fstream>
 #include <filesystem>

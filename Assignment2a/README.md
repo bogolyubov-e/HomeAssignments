@@ -5,7 +5,7 @@
 st139974@student.spbu.ru
 ## Description
 Home assignment 2a - reversed binary file.
-Reads a file, then reverse it and write it in ""output_" + filename" file.
+Read a file, then reverse it and write it in ""output_" + filename" file.
 ## Build
 make
 ## Run

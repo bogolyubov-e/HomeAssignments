@@ -1,3 +1,9 @@
+/*
+ Egor Bogolyubov
+ student139974@student.spbu.ru
+ HomeAssignment2b
+*/
+
 #include <iostream>
 
 int main()
