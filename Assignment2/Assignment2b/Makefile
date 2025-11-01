@@ -1,7 +1,7 @@
 main: main.cpp
-	g++ -Wall -Wextra main.cpp -o main
+	g++ -Wall -Wextra main.cpp -o RPN
 
 clean:
 	rm -f main.o
 cleanall:
-	rm -f main.o main
+	rm -f main.o RPN

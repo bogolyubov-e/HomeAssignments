@@ -1,8 +1,8 @@
 main: main.cpp
-	g++ -Wall -Wextra main.cpp -o main
+	g++ -Wall -Wextra main.cpp -o reverse_bin
 
 clean:
 	rm -f *.o
 
 cleanall:
-	rm -f *.o main output_*
+	rm -f *.o reverse_bin output_*
