@@ -9,4 +9,4 @@ Read string as a reverse polish notation, then calculate it and print result.
 ## Build
 make
 ## Run
-./main
+./RPN

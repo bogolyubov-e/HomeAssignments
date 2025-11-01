@@ -9,4 +9,4 @@ Read a file, then reverse it and write it in ""output_" + filename" file.
 ## Build
 make
 ## Run
-./main
+./reverse_bin
