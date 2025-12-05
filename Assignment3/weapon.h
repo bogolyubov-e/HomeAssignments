@@ -1,3 +1,9 @@
+/*
+ Egor Bogolyubov
+ student139974@student.spbu.ru
+ HomeAssignment3
+*/
+
 #ifndef WEAPON_H
 #define WEAPON_H
 

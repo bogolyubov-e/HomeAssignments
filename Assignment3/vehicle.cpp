@@ -1,3 +1,9 @@
+/*
+ Egor Bogolyubov
+ student139974@student.spbu.ru
+ HomeAssignment3
+*/
+
 #include <vehicle.h>
 
 Vehicle::Vehicle(const std::string& model, int max_speed)

@@ -1,3 +1,10 @@
+/*
+ Egor Bogolyubov
+ student139974@student.spbu.ru
+ HomeAssignment3
+*/
+
+
 #ifndef AUTOBOT_H
 #define AUTOBOT_H
 
