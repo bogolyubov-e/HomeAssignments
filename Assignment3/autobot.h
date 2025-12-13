@@ -1,7 +1,7 @@
 /*
  Egor Bogolyubov
  student139974@student.spbu.ru
- HomeAssignment3
+ HomeAssignment4
 */
 
 
@@ -11,22 +11,24 @@
 #include "transformer.h"
 #include <string>
 
-class Autobot : public Transformer {
+class Autobot : public Transformer
+{
 public:
-  Autobot(const std::string& name, int health, const Weapon& weapon, Vehicle* vehicle, int courage, bool hasShield);
+    Autobot();
+    Autobot(const std::string& name, int health, const Weapon& weapon, Vehicle* vehicle, int courage, bool hasShield);
 
-  int getCourage() const;
-  void setCourage(int courage);
-  bool hasShield() const;
-  void activateShield( bool activate);
-  
-  bool protectAlly();
-  
-  bool transform() override;
+    int getCourage() const;
+    void setCourage(int courage);
+    bool hasShield() const;
+    void activateShield( bool activate);
 
+    bool protectAlly();
+
+    void transform() const override;
+    void report() const override;
 private:
-  int courage_;
-  bool shieldActive_;
+    int courage_;
+    bool shieldActive_;
 };
 
 #endif
