@@ -1,7 +1,7 @@
 /*
  Egor Bogolyubov
  student139974@student.spbu.ru
- HomeAssignment3
+ HomeAssignment4
 */
 
 #ifndef WEAPON_H
@@ -9,15 +9,16 @@
 
 #include <string>
 
-class Weapon {
+class Weapon
+{
 private:
-  std::string type_;
-  int damage_;
+    std::string type_;
+    int damage_;
 public:
-  Weapon(const std::string& type, int damage);
-  std::string getType() const;
-  int getDamage() const;
-  void setDamage(int damage);
+    Weapon(const std::string& type, int damage);
+    std::string getType() const;
+    int getDamage() const;
+    void setDamage(int damage);
 };
 
 #endif
