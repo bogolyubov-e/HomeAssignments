@@ -7,19 +7,8 @@ Bogolyubov Egor 25.581-MM
 st139974@student.spbu.ru
 
 ## Description  
-Template-based matrix class supporting:
-- Scalar multiplication
-- Matrix addition
-- Matrix-matrix multiplication
-- Transpose
-- Full compatibility with built-in types (`int`, `double`) and custom `Rational` class
-
-The `Rational` class maintains invariants:
-- Denominator > 0
-- GCD(|numerator|, denominator) = 1
-- Denominator ≠ 0
-
-All operations are thoroughly tested with Google Test.
+Template-based matrix class supporting addition, scalar and matrix multiplication, and transpose.  
+Includes custom Rational number class with invariant preservation. Unit tests provided.
 
 ## Build  
 make test
@@ -28,9 +17,9 @@ make test
 ./matrix_tests
 
 ## Classes  
-- `Rational` — immutable rational number with normalized form  
-- `Matrix<T>` — template matrix class with dynamic dimensions
+- Matrix<T> (template class for m×n matrices)  
+- Rational (fraction with normalized form)
 
 ## Testing  
-- `test_rational.cpp` — covers construction, arithmetic, invariants  
-- `test_matrix.cpp` — covers all matrix operations with `int`, `double`, and `Rational`
+- test_rational.cpp  
+- test_matrix.cpp
