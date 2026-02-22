@@ -1,7 +1,7 @@
 /*
  Egor Bogolyubov
  student139974@student.spbu.ru
- HomeAssignment3
+ HomeAssignment4
 */
 
 #ifndef VEHICLE_H
@@ -9,14 +9,15 @@
 
 #include <string>
 
-class Vehicle {
+class Vehicle
+{
 private:
-  std::string model_;
-  int max_speed_;
+    std::string model_;
+    int max_speed_;
 public:
-  Vehicle(const std::string& model, int max_speed);
-  std::string getModel() const;
-  int getMaxSpeed() const;
+    Vehicle(const std::string& model, int max_speed);
+    std::string getModel() const;
+    int getMaxSpeed() const;
 };
 
 #endif
